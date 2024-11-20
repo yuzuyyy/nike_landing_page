@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: nike-2-0
+name: nike-2-0
+region: us-east-1
+yamlVersion: 2
